@@ -1,0 +1,100 @@
+=>git
+
+=One times
+after git install
+git
+git --version       ( git version 2.39.2)
+
+git config --global user.name "Tin Htut Aung"
+git config user.name
+git config --global user.email "suoolwin88@gmail.com"
+git config user.email
+ssh-keygen   one time (in 20 minutes)
+Enter file in which to save the key (/home/user/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/user/.ssh/id_rsa
+Your public key has been saved in /home/user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:W48q1I0R1gmab859cRK5o+iiCJfVhnE/RGdlQUldhZg user@user-Aspire-A515-54G
+The key's randomart image is:
++---[RSA 3072]----+
+|        ooo=** o+|
+|       +ooo.E.o  |
+|    . +...  o    |
+|     = +.    o   |
+|    o o.S+. = .  |
+|   o ..+o*.+ =   |
+|. o  .  = + o    |
+| o .  o. . .     |
+|  . .. oo        |
++----[SHA256]-----+
+
+cd 
+cd/
+/home/user
+cd - 
+/home/user
+cd .ssh
+
+cd-
+cd /home/user/.ssh
+ls
+cat id_rsa.pub
+
+
+
+
+
+
+
+
+
+=> SSH (Secure Shell)
+ssh-keygen
+
+ssh -T git@github.com (we can check ssh is successful or not by this comment)
+yes
+
+
+
+=> github
+
+(1 project 1 times)
+git init
+ls
+ls -a
+git remote add origin "git@github.com:suoolwin/pttsoftware.git"
+
+
+
+(as to you)
+git status
+git add -A    			(git add *)
+git status
+git commit -m "my first project"
+ git status
+git push -u origin master
+
+=>Update 
+git status
+git add *
+git status
+git commit -m "modified title 12/March/2024 22:52PM"
+git status
+git push -u origin master
+
+----------------------------------------
+download file
+
+
+=>clone
+git clone
+git@github.com:suoolwin/pttsoftware.git
+
+=>Pull
+create folder
+git init
+git remote add origin "git@github.com:suoolwin/pttsoftware.git"
+git status
+git pull origin master(or)main

@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>Form Elements</title>
+</head>
+<body>
+
+	<h3>Form Elements</h3>
+
+	<fieldset>
+		<legend>This is sample form</legend>
+
+
+	<form action="" method="" enctype="multipart/form-data">
+
+
+		<label for="firstname">First Name</label>
+		<input type="text" name="firstname" id="firstname" class="" placeholder="Enter your first name" autocomplete="off"minlength="3" maxlength="5" autofocus />
+
+
+		<br/><br/>
+
+
+		<label for="lastname">Last Name</label>
+		<input type="text" name="lastname" id="lastname" class="" placeholder="Enter your last name" autocomplete="off" />
+
+		<br/><br/>
+
+
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" class="" min="18" max="
+		100" placeholder="Enter your age"/>
+
+
+		<br/><br/>
+
+
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" class="" placeholder="Enter your password"/>
+
+
+		<br/><br/>
+
+
+		<label >Gender</label>
+		<input type="radio" name="gender" id="genderm" class="" value="1" /><label for="genderm">Male</label>
+		<input type="radio" name="gender" id="genderf" class="" value="0" /><label for="genderf">Female</label>
+		<input type="radio" name="gender" id="gendero" class="" value="2" /><label for="gendero">Other</label>
+
+		<br/><br/>
+
+
+		<label >Fruit</label>
+		<input type="radio" name="fruit" id="fruitap" class="" value="1" /><label for="fruitap">Apple</label>
+		<input type="radio" name="fruit" id="fruitog" class="" value="2" /><label for="fruitog">Orange</label>
+		<input type="radio" name="fruit" id="fruitpp" class="" value="3" /><label for="fruitpp">Pineapple</label>
+
+		<br/><br/>
+
+
+		<label >Choose your fav colors</label>
+		<input type="checkbox" name="favcolor" id="favrd" class="" value="1" /><label for="favrd">Red</label>
+		<input type="checkbox" name="favcolor" id="favgr" class="" value="2" /><label for="favgr">Green</label>
+		<input type="checkbox" name="favcolor" id="favbl" class="" value="3" /><label for="favbl">Blue</label>
+		<input type="checkbox" name="favcolor" id="favwh" class="" value="4" /><label for="favwh">White</label>
+
+
+		<br/><br/>
+
+		<label for="country">Citizen</label>
+		<select name="country" id="country" class="">
+			<option selected disabled>Choose Country</option>
+			<option value="mm">Myanmar</option>
+			<option value="thi">Thiland</option>
+			<option value="php">Philipine</option>
+			<option value="slk">Srilanka</option>
+		</select>
+
+
+
+		<br/><br/>
+
+		<label for="role">Role</label>
+		<select name="role" id="role" class="" multiple>
+			<option value="1">Manager</option>
+			<option value="2">Editior</option>
+			<option value="3">Supervisor</option>
+			<option value="4">Sales</option>
+		</select>
+
+
+		<br/><br/>
+
+		<label for="dob">DOB</label>
+		<input type="date" name="dob" id="dob" class="" />
+
+		<br/><br/>
+
+		<label for="bookingtime">Booking Time</label>
+		<input type="time" name="bookingtime" id="bookingtime" class="" />
+
+			<br/><br/>
+
+		<label for="apt">Appointment</label>
+		<input type="datetime-local" name="apt" id="apt" class="" />
+
+
+		<br/><br/>
+
+		<label for="volume">Volume</label>
+		<input type="range" name="volume" id="volume" class="" min="0" max="100" value="0" />
+
+
+		<br/><br/>
+
+		<label for="volume">Volume</label>
+		<input type="range" name="volume" id="volume" class="" min="0" max="100" step="20" />
+
+
+
+		<br/><br/>
+
+		<label for="nrc">NRC</label>
+		<input type="file" name="nrc" id="nrc" class="" accept="
+		image/*" capture="user" multiple />
+
+
+		<br/><br/>
+
+			<label for="vdo">vedio</label>
+		<input type="file" name="vdo" id="vdo" class="" accept="
+		vedio/*" capture="environment" multiple  />
+
+
+		<br/><br/>
+
+
+			<label for="email">Email</label>
+		<input type="email" name="email" id="email" class="" placeholder="Enter your email" />
+
+
+		<br/><br/>
+
+
+		<label for="bio">Bio</label>
+		<textarea type="bio" name="bio" id="bio" class="" rows="3" spellcheck="false" placeholder="Enter your bio" >  </textarea>
+
+
+		<br/><br/>
+
+		<input type="time" name="test" id="test"class="" hidden/>
+		<input type="hidden"  name="lat" class=""/>
+
+
+		<br/><br/>
+
+		<input type="reset" name="reset" id="reset" class="" value="reset" />
+		<input type="button" name="login" id="login" class="" value="Login" />
+		<input type="submit" name="singups" id="singups" class="" value="Singup" />
+
+
+		<button type="reset" name="Cancel" id="Cancel" class="">Cancel</button>
+		<button type="button" name="singup" id="singup" class="">Register</button>
+		<button type="submit" name="singup" id="singup" class="">Signup</button>
+
+		
+	</form>
+	</fieldset>
+
+</body>
+</html>
+
+
+<!-- self closing tag stand alone attribute -->
+
+
+<!-- selected
+	disabled
+	readonly
+	checked
+	 -->
+
+
+<!-- capture="user" only andriod -->
+
+
+<!-- 
+
+		enctype="multipart/form-data" must use when your form include file type...but don't need to use it when not include file type in form...
+
+
+     -->
+
+
+<!-- fieldset -->

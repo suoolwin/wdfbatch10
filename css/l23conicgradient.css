@@ -1,0 +1,165 @@
+.circle1,.circle2,.circle3,.circle4,.circle5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.circle1{
+	background: conic-gradient(
+		yellow,
+		red,
+		green,
+		pink
+	);
+}
+
+.circle2{
+	background: conic-gradient(
+		#eb4034,
+		#34ebb7,
+		#d234eb,
+		#ebcf34
+	);
+}
+
+.circle3{
+	background: conic-gradient(
+		rgba(245, 40, 145, 0.8),
+		rgba(39, 245, 74, 0.8),
+		rgba(245, 39, 89, 0.8),
+		rgba(39, 207, 245, 0.8)
+	);
+
+}
+
+.circle4{
+	background: conic-gradient(
+		hsl(328, 100%, 44%),
+		hsl(57, 100%, 50%),
+		hsl(299, 100%, 50%),
+		hsl(222, 100%, 50%)
+	);
+}
+
+.circle5{
+	background: conic-gradient(
+			red 40%,
+			yellow 0% 50%,
+			blue 0% 80%,
+			green 0% 100%
+		);
+}
+
+.circle6{
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(
+		45deg,
+		red 20%,
+		yellow 0% 30%,
+		blue 0% 50%,
+		green 0% 100%
+	);
+}
+
+.boxone{
+	width: 600px;
+	height: 300px;
+	background: green;
+
+	display: flex;
+/*	hz center*/
+	justify-content: center;
+/*	vt center*/
+	align-items: center;
+
+/*	display: grid;*/
+/*	place-items: center;*/
+
+	position: relative;
+}
+
+.boxone .div1{
+	width: 300px;
+	height: 300px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50%;
+
+	position: absolute;
+	/*left: 0;
+	top: 0;
+*/
+	z-index: 2;
+}
+
+.boxone .div2{
+	width: 320px;
+	height: 320px;
+/*	background-color: steelblue;*/
+/*	background: linear-gradient(red,orange);*/
+	background: conic-gradient(
+			red,
+			violet 30%,
+			red 0%,
+			blue 70%,
+			red 0%,
+			yellow 100%
+		);
+
+	color: #fff;
+	border-radius: 50%;
+
+	position: absolute;
+	/*left: 0;
+	top: 0;*/
+
+
+	z-index: 1;
+
+}
+
+.pointercontainer{
+	width: 20px;
+	height: 200px;
+/*	background-color: gray;*/
+
+	position: absolute;
+	top: -50px;
+
+	z-index: 3;
+
+	animation-name: myani;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: Linear;
+
+	transform-origin: bottom;
+
+}
+
+.pointer{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+
+	display: block;
+
+}
+
+@keyframes myani{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+
+	/*0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-1turn);
+	}*/
+}

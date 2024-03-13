@@ -1,0 +1,36 @@
+/*Single seletor */
+
+h2{
+	color: blue;
+}
+
+
+/*Group seletor (,)*/
+
+h5,h3,h4{
+	color: steelblue;
+	font-size: 20px;
+}
+
+/*ID selector*/
+
+#myself{
+	color: violet;
+}
+
+#thd,#ygn,i{
+	color: blue;
+}
+
+
+/*class selector*/
+
+
+.phone{
+	color:green;
+}
+
+.fontlg,u{
+	font-size: 30px;
+}
+

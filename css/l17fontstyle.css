@@ -1,0 +1,137 @@
+/*Font Integrate*/
+/*(i) Local Machine Integration
+(ii) Global Integration or Project Folder Integration*/
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');*/
+@import url('./L17addfile.css');
+
+
+/*Universal Selector*/
+
+*{
+	cursor: pointer;
+	
+}
+
+.p2{
+	color: red !important;
+	font-size: 50px;
+}
+
+/*(i) Local Machine Integration*/
+
+/*body{
+	font-family: Arial;
+}*/
+
+/*.p1{
+	font-family: Arial;
+}*/
+
+/*.p2{
+	font-family: "Time New Roman";
+}
+*/
+/*.p3{
+	font-family: Century,Arial,"Time New Roman";
+}*/
+
+
+/*(ii) Global Integration or Project Folder Integration*/
+
+/*body{
+	font-family: 'Stick', sans-serif;
+}*/
+
+@font-face{
+	font-family: 'abc';
+	src: url('./../fonts/Stick/Stick-Regular.ttf');
+}
+
+@font-face{
+	font-family: "efg";
+	src: local('AkayaTelivigala-Regular'),url('./../fonts/Akaya_Telivigala/AkayaTelivigala-Regular.ttf') format('woff');
+}
+
+.p1,.p4{
+		font-family: 'abc', sans-serif;
+}
+
+.p2{
+	font-family: "efg",sans-serif;
+	color: blue !important;
+
+}
+
+.p3{
+	font-family: "efg",sans-serif;
+	color: blue;
+}
+
+
+
+.clickme{
+	text-decoration: none;
+	color: green;
+}
+
+/*pseudo class(:)*/
+
+.clickme:hover{
+	text-decoration: underline;
+	font-size: 30px;
+
+}
+
+.clickme:visited{
+	color: red;
+}
+
+
+.menutext{
+	font-family: Arial;
+	background-color: green;
+	text-decoration: none;
+	color: #fff;
+
+
+/*	padding: 10px;*/
+/*			Top&bottom left&right*/
+/*	padding: 10px 20px;*/
+/*			top  right bottom left*/
+/*	padding: 10px 20px 30px 40px;*/
+
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+
+	border-radius: 10px;
+
+/*	transition: all 2s;*/
+	transition: background-color 2s;
+
+	transition: background-color 2s,color 5s;
+
+}
+
+.menutext:hover{
+	background-color: orange;
+	color: #000;
+}
+
+.imgdesign{
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+
+	transition: all 1s;
+
+}
+
+.imgdesign:hover{
+	width: 100px;
+	height: 100px;
+}
