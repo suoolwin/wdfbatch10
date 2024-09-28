@@ -94,6 +94,8 @@
 		console.log(favcolor.replace("color","colour"));//My fav colour is black color
 
 
+
+
 		// substring(index,length)
 
 		console.log(favcolor.substring(0,10)+"...");  //My fav col...
@@ -108,7 +110,31 @@
 		
 
 
+		// startWith(string)
+		// startWith(string,index)
 
+		const sayhi = "Dear U Ba";
+		console.log(sayhi.startsWith("Dear")); // true
+		console.log(sayhi.startsWith("dear")); // false
+		console.log(sayhi.startsWith("D")); // true
+		console.log(sayhi.startsWith("d")); // false
+
+		console.log(sayhi.startsWith("Dear",0)); // true
+		console.log(sayhi.startsWith("ar",2)); // true
+		console.log(sayhi.startsWith("U",5)); // true
+
+
+		// endsWith(string)
+		// endsWith(string,length)
+
+		const saybye = "See you later";
+		console.log(saybye.endsWith("later")); // true
+		console.log(saybye.endsWith("Later")); // false
+		console.log(saybye.endsWith("r")); // true
+		console.log(saybye.endsWith("R")); // false
+
+		console.log(saybye.endsWith("r",saybye.length-0)); // true
+		console.log(saybye.endsWith("l",saybye.length-4)); // true
 
 		</script>
 	

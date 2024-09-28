@@ -687,18 +687,52 @@ document.querySelector('#form').addEventListener('submit',function(e){
 	console.log(alltasks);
 });
 
-console.log(localStorage.getItem('mytasks'));
-console.log(typeof localStorage.getItem('mytasks'));
+// console.log(localStorage.getItem('mytasks'));
+// console.log(typeof localStorage.getItem('mytasks'));
 
-console.log(JSON.parse(localStorage.getItem('mytasks')));
-console.log(typeof JSON.parse(localStorage.getItem('mytasks')));
+// console.log(JSON.parse(localStorage.getItem('mytasks')));
+// console.log(typeof JSON.parse(localStorage.getItem('mytasks')));
 
 const getmytasks = JSON.parse(localStorage.getItem('mytasks'));
 
 
-getmytasks.forEach(function(getmytasks){
+getmytasks.forEach(function(getmytask){
 
-	console.log(getmytasks);
+
+
+	// console.log(getmytask);
+
+		// const newli = document.createElement('li');
+		// // newli.createTextNode(getmytask);
+
+		// // console.log(newli);
+
+		// const getul = document.querySelector('ul');
+		// getul.appendChild(newli);		
+
+		// const newlink = document.createElement('a');
+		// newlink.href = "#";
+		// // newlink.id = "delete-item6";	
+		// // newlink.className = 'delete-item';
+		// // newlink.classList.add('delete-item');
+		
+		// const newitalic = document.createElement('i');
+		// newitalic.classList.add('fas','fa-trash-alt');
+		
+		// newlink.appendChild(newitalic);
+		// // // console.log(newlink);
+		
+		// newli.appendChild(newlink);
+		
+		// // console.log(newli);
+		
+		// document.querySelector('ul.list-group').appendChild(newli);
+
+	
+
+	
+
+	
 
 
 });
